@@ -1,12 +1,13 @@
 $(function() {
 
+	// Load AOS
   $(window).on('load', function() {
     AOS.init({
-      duration: 1000,
-      once: true
+      duration: 1000
     });
   });
 
+	// Add header scroll
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 0) {
 			 $('.site-navbar').addClass('header-scroll');
@@ -83,5 +84,21 @@ $(function() {
 
 	}; 
 	siteMenuClone();
+
+
+	$(document).on("click", "#home", function () {
+		$('#section-about-awc').addClass('d-none');
+		$('#section-home').removeClass('d-none');
+		$('li#home').addClass('active');
+		$('li#aboutAwc').removeClass('active');
+	});
+
+	$(document).on("click", "#aboutAwc", function () {
+		$('#section-home').addClass('d-none');
+		$('#section-about-awc').removeClass('d-none');
+		$('li#aboutAwc').addClass('active');
+		$('li#home').removeClass('active');
+	
+	});
 
 });
