@@ -1,7 +1,10 @@
 $(function() {
 
-	// Load AOS
+	// Window loads
   $(window).on('load', function() {
+		// Preloader
+		$("#site-preloader").fadeOut("slow");
+		// Initialize AOS
     AOS.init({
       duration: 1000
     });
@@ -84,7 +87,6 @@ $(function() {
 
 	}; 
 	siteMenuClone();
-
 
 	$(document).on("click", "#home", function () {
 		$('#section-about-awc').addClass('d-none');
