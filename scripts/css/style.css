@@ -410,10 +410,17 @@ a, a:hover {text-decoration: none !important; }
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
 }
-
-
+section#section-about-awc .site-about-awc .about-awc-image-1 {
+  background-image: url('../.././assets/images/about-awc-image-1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+section#section-about-awc .site-about-awc .about-awc-image-2 {
+  background-image: url('../.././assets/images/about-awc-image-2.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
