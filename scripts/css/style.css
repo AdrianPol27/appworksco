@@ -375,9 +375,8 @@ a, a:hover {text-decoration: none !important; }
   background-attachment: fixed;
   padding: 100px 0 100px 0;
 }
-.site-home-banner h1 {
-  font-family: 'Oswald';
-}
+.site-home-banner h1 {font-family: 'Oswald';}
+
 @media (max-width: 992px) {
   .site-home-banner h1 {font-size: 2rem;}
 }
@@ -391,22 +390,35 @@ a, a:hover {text-decoration: none !important; }
 /********************************************************/
 /******************** Site AWC Works ********************/
 /********************************************************/
-.site-awc-works {
-  padding: 100px 0 100px 0;
+.site-awc-works {padding: 100px 0 100px 0;}
+.site-awc-works h3 {font-family: 'Oswald';}
+
+
+
+.site-about-awc-banner {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
 }
-.site-awc-works h3 {
+.site-about-awc-banner h3 {
   font-family: 'Oswald';
+  margin-top: 30px;
 }
-
-
-
-
-
-
-
-#section-about-awc {
+.site-about-awc {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 50vh;
+}
+
+
+
+
+
+
+
+#section-site-footer {
+  background-color: #111;
 }
