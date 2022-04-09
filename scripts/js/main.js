@@ -1,14 +1,21 @@
 $(function() {
 
+	// Load aos for testing
+	AOS.init({
+		duration: 1000,
+	});
+	
 	// Window loads
   $(window).on('load', function() {
 		// Preloader
 		$("#site-preloader").fadeOut("slow");
 		// Initialize AOS
     AOS.init({
-      duration: 1000
+      duration: 1000,
     });
   });
+
+
 
 	// Add header scroll
 	$(window).scroll(function(){
@@ -88,18 +95,18 @@ $(function() {
 	}; 
 	siteMenuClone();
 
-	$(document).on("click", "#home", function () {
+	$(document).on("click", ".home", function () {
 		$('#section-about-awc').addClass('d-none');
 		$('#section-home').removeClass('d-none');
-		$('li#home').addClass('active');
-		$('li#aboutAwc').removeClass('active');
+		$('li.home').addClass('active');
+		$('li.aboutAwc').removeClass('active');
 	});
 
-	$(document).on("click", "#aboutAwc", function () {
+	$(document).on("click", ".aboutAwc", function () {
 		$('#section-home').addClass('d-none');
 		$('#section-about-awc').removeClass('d-none');
-		$('li#aboutAwc').addClass('active');
-		$('li#home').removeClass('active');
+		$('li.aboutAwc').addClass('active');
+		$('li.home').removeClass('active');
 	
 	});
 
