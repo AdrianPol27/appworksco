@@ -20,9 +20,9 @@
   <body>
 
     <!-- Preloader -->
-    <div id="site-preloader">
+    <!-- <div id="site-preloader">
       <span class="loader"><span class="loader-inner"></span></span>
-    </div>
+    </div> -->
     
     <!-- Site Mobile Menu -->
     <div class="site-mobile-menu">
@@ -35,8 +35,8 @@
     </div>
     
     <!-- Site Navbar Start -->
-    <header class="site-navbar" role="banner">
-      <div class="container">
+    <header class="site-navbar">
+      <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-11 col-xl-2">
             <a href="index.html" class="text-white mb-0"><img src="./assets/images/logo.png" class="site-logo" alt="Appworks Co. Logo"></a>
@@ -44,8 +44,8 @@
           <div class="col-12 col-md-10 d-none d-xl-block">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active" id="home"><a href="#section-home"><span>Home</span></a></li>
-                <li id="aboutAwc"><a href="#section-about-awc"><span>About AWC</span></a></li>
+                <li class="home active" id="home"><a href="#section-home"><span>Home</span></a></li>
+                <li class="aboutAwc"><a href="#section-about-awc"><span>About AWC</span></a></li>
                 <li id="services"><a href="#"><span>Services</span></a></li>
                 <li id="works"><a href="#"><span>Works</span></a></li>
                 <li id="contacts"><a href="#"><span>Contacts</span></a></li>
@@ -147,13 +147,13 @@
       <div class="site-about-awc">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 p-5 about-us-text">
+            <div class="col-lg-6 about-awc-text">
               <h1 class="display-5 text-left" data-aos="fade-left">AWC provides I.T solutions for your business needs.</h1>
               <p class="lead text-justify" data-aos="fade-up">We transform technologies into user-friendly platforms to innovate your operations and take your business to everyone&apos;s fingertips.</p>
             </div>
             <div class="col-lg-6 about-awc-image-1" data-aos="fade-right"></div>
             <div class="col-lg-6 about-awc-image-2" data-aos="fade-left"></div>
-            <div class="col-lg-6 p-5 about-us-text">
+            <div class="col-lg-6 about-awc-text">
               <h1 class="display-5 text-left" data-aos="fade-right">Own a website within your budget.</h1>
               <p class="lead text-justify" data-aos="fade-down">From e-commerce to landing page you can choose any website types to boost your business without worrying about your budget.</p>
             </div>
@@ -167,157 +167,66 @@
 
 
 
-    <section id="section-site-footer">
-      <!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
-
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
-
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Contact
-          </h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-      <div class="container pt-4 text-light">
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="./assets/images/logo.png" class="w-100 mt-n4" alt="Appworks Co. Logo">
-            <p class="text-light text-justify d-lg-none d-block">We transform technologies into user-friendly platforms to innovate your operations and take your business to everyone's fingertips.</p>
-          </div>
-          <div class="col-lg-4">
-            <h5 class="text-uppercase mb-4 pt-3">Contacts</h5>
-            <ul>
-              <li class="mb-2">(+639) 965 401 3233</li>
-              <li class="mb-2">info.appworksco@gmail.com</li>
-              <li>Brgy. Lunao, Gingoog City, 9014, <br> Misamis Oriental, Philippines</li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h5 class="text-uppercase mb-4 pt-3">Useful Links</h5>
-            <ul>
-              <li class="mb-2"><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms and Condition</a></li>
-            </ul>
+    <!-- Section Contact Start -->
+    <section id="section-contact">
+      <!-- Site Contact Map Start -->
+      <div class="site-contact-map">
+        <div class="container-fluid">
+          <div id="awc-loc">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.2840939411694!2d125.06444456735805!3d8.853121163536981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33002f95b650b52d%3A0x6b95ef568e8637e7!2sAppworks%20Co.!5e0!3m2!1sen!2sph!4v1649491588670!5m2!1sen!2sph" class="w-100" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
+      <!-- Site Contact Map End -->
     </section>
+    <!-- Section Contact End -->
+
+
+
+
+
+    <!-- Site Footer Start -->
+    <footer id="site-footer" class="w-100 py-4 flex-shrink-0">
+      <div class="container py-4">
+        <div class="row gy-4 gx-5">
+          <div class="col-lg-4 col-md-6">
+            <h5 class="h1 text-white">Appworks Co.</h5>
+            <p class="text-muted text-justify">We help transform technologies into user-friendly platforms to innovate your operations and take your business to eveyone&apos;s fingertips.</p>
+            <p class="small text-muted">&copy; Copyright 2022. All rights reserved. <a class="text-primary" href="http://www.appworksco.tk/">appworksco.tk</a></p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h5 class="text-uppercase text-white mb-3">Navigation</h5>
+            <ul class="list-unstyled text-muted">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About AWC</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+            <div class="col-lg-2 col-md-6">
+              <h5 class="text-uppercase text-white mb-3">Useful Links</h5>
+              <ul class="list-unstyled text-muted">
+                <li><a href="#">Terms and Condition</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h5 class="text-uppercase text-white mb-3">Newsletter</h5>
+              <p class="text-muted">Subscribe to get special offers, free giveaways, and more.</p>
+              <form action="#">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email">
+                  <button type="button" class="btn btn-primary"><i class="fa fa-paper-plane-o"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Site Footer End -->
 
 
 
@@ -325,8 +234,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/406ee2a840.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7RwucJCpfX2QjMXwOqFXFYRaM8MwqlG4&callback=initMap&libraries=&v=weekly" async></script>
     <script src="./scripts/js/main.js"></script>
+    <script>
+  
+      // Initialize and add the map
+      function initMap() {
+
+          // The location of Geeksforgeeks office
+          const gfg_office = {
+              lat: 28.50231,
+              lng: 77.40548
+          };
+
+          // Create the map, centered at gfg_office
+          const map = new google.maps.Map(
+                  document.getElementById("map"), {
+
+              // Set the zoom of the map
+              zoom: 17.56,
+              center: gfg_office,
+          });
+      }
+  </script>
 
   </body>
 </html>

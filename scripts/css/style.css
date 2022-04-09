@@ -394,7 +394,6 @@ a, a:hover {text-decoration: none !important; }
 .site-awc-works h3 {font-family: 'Oswald';}
 
 
-
 .site-about-awc-banner {
   height: 40vh;
   display: flex;
@@ -410,6 +409,20 @@ a, a:hover {text-decoration: none !important; }
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+section#section-about-awc .site-about-awc .about-awc-text {
+  padding: 150px 90px 150px 90px;
+}
+@media (max-width: 992px) {
+  section#section-about-awc .site-about-awc .about-awc-text {
+    padding: 50px 100px 50px 100px;
+  }
+}
+@media (max-width: 768px) {
+  section#section-about-awc .site-about-awc .about-awc-text {
+    padding: 20px 50px 20px 50px;
+  }
 }
 section#section-about-awc .site-about-awc .about-awc-image-1 {
   background-image: url('../.././assets/images/about-awc-image-1.jpg');
@@ -423,9 +436,14 @@ section#section-about-awc .site-about-awc .about-awc-image-2 {
 }
 
 
+ section#section-about-awc .site-about-awc img {width: 60%;}
 
 
-
-#section-site-footer {
-  background-color: #111;
+section#section-contact .site-contact-banner h3 {
+  font-family: 'Oswald';
+  margin-top: 30px;
 }
+
+
+
+footer#site-footer {background-color: #111;}
