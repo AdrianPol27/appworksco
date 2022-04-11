@@ -1,12 +1,14 @@
 $(function() {
 
   $(window).on('load', function() {
+    // Preloader
+    $("#site-preloader").fadeOut("slow");
+    // Initialize AOS
     AOS.init({
       duration: 1000,
       disable: 'mobile',
     });
   });
-
 
   // Add header scroll
   $(window).scroll(function(){
