@@ -71,7 +71,6 @@
 }
 
 /* Navbar Start */
-
 .navbar-scroll {background-color: #111;}
 nav.navbar {position: absolute;}
 nav.navbar .navbar-brand img {width: 100px;}
@@ -92,102 +91,78 @@ nav.navbar .navbar-brand img {width: 100px;}
 
 
 
-
-/* Section Site Home Hero Start */
-section#site-home-hero {
+/***********************************************************/
+/******************** Section Site Home ********************/
+/***********************************************************/
+section#section-home .site-home-hero {
   background-image: url('../../assets/images/site-hero-bg.jpg');
   background-size: cover;
   background-position: bottom;
 }
-section#site-home-hero .container{height: 100vh;}
-/* Section Site Home Hero End */
-
-
-
-
-
-/* Section Site Platform Expertise Start */
-section#site-platform-expertise {
+section#section-home .site-home-hero .container{height: 100vh;}
+section#section-home .site-platform-expertise {
   background-color: #f6f6f6;
   margin-top: -1px;
 }
-section#site-platform-expertise img {
+section#section-home .site-platform-expertise img {
   width: 100%;
   filter: saturate(0%);
 }
-section#site-platform-expertise img:hover {filter: none;}
-/* Section Site Platform Expertise End */
-
-
-
-
-
-
-/* Section Site Home Banner Start */
-section#site-home-banner {
+section#section-home .site-platform-expertise img:hover {filter: none;}
+section#section-home .site-home-banner {
   background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../.././assets/images/site-about-awc-bg.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0 100px 0;
 }
-/* Section Site Home Banner End */
+section#section-home .site-awc-works {padding: 100px 0 100px 0;}
 
 
-section#site-awc-works {padding: 100px 0 100px 0;}
 
 
 
 /********************************************************/
-/******************** Site AWC Works ********************/
+/******************** Section About ********************/
 /********************************************************/
-.site-awc-works {padding: 100px 0 100px 0;}
-.site-awc-works h3 {font-family: 'Oswald';}
-
-
-.site-about-awc-banner {
+section#section-about .site-about-awc-banner {
   height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #111;
 }
-.site-about-awc-banner h3 {
-  font-family: 'Oswald';
-  margin-top: 30px;
-}
-.site-about-awc {
+section#section-about .site-about-awc-banner h3 {margin-top: 30px;}
+section#section-about .site-about-awc-desc {
   display: flex;
   align-items: center;
   justify-content: center;
 
 }
-section#section-about-awc .site-about-awc .about-awc-text {
+section#section-about .site-about-awc-desc .about-awc-text {
   padding: 150px 90px 150px 90px;
 }
 @media (max-width: 992px) {
-  section#section-about-awc .site-about-awc .about-awc-text {
+  section#section-about .site-about-awc-desc .about-awc-text {
     padding: 50px 100px 50px 100px;
   }
 }
 @media (max-width: 768px) {
-  section#section-about-awc .site-about-awc .about-awc-text {
+  section#section-about .site-about-awc-desc .about-awc-text {
     padding: 20px 50px 20px 50px;
   }
 }
-section#section-about-awc .site-about-awc .about-awc-image-1 {
+section#section-about .site-about-awc-desc .about-awc-image-1 {
   background-image: url('../.././assets/images/about-awc-image-1.jpg');
   background-size: cover;
   background-position: center;
 }
-section#section-about-awc .site-about-awc .about-awc-image-2 {
+section#section-about .site-about-awc-desc .about-awc-image-2 {
   background-image: url('../.././assets/images/about-awc-image-2.jpg');
   background-size: cover;
   background-position: center;
 }
-
-
- section#section-about-awc .site-about-awc img {width: 60%;}
+section#section-about .site-about-awc-desc img {width: 60%;}
 
 
 
