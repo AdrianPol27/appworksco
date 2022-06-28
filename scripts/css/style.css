@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster&family=Oswald:wght@200&family=Raleway:wght@100&display=swap');
-
+.text-justify {text-align: justify;}
 .ff-oswald {font-family: 'Oswald';}
 #site-preloader {
   height: 100vh;
