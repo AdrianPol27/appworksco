@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lobster&family=Oswald:wght@200&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.ft-monoton {font-family: 'Monoton', cursive; word-spacing: 1rem;}
+
 .text-justify {text-align: justify;}
-.ff-oswald {font-family: 'Oswald';}
+
+/* Site Preloader Start */
 #site-preloader {
   height: 100vh;
   width: 100%;
@@ -25,148 +28,60 @@
   background-color: #fff;
   animation: loader-inner 2s infinite ease-in;
 }
-
 @keyframes loader {
   0% {
     transform: rotate(0deg);
   }
-  
   25% {
     transform: rotate(180deg);
   }
-  
   50% {
     transform: rotate(180deg);
   }
-  
   75% {
     transform: rotate(360deg);
   }
-  
   100% {
     transform: rotate(360deg);
   }
 }
-
 @keyframes loader-inner {
   0% {
     height: 0%;
   }
-  
   25% {
     height: 0%;
   }
-  
   50% {
     height: 100%;
   }
-  
   75% {
     height: 100%;
   }
-  
   100% {
     height: 0%;
   }
 }
+/* Site Preloader End */
 
-/* Navbar Start */
-.navbar-scroll {background-color: #111;}
-nav.navbar {position: absolute;}
-nav.navbar .navbar-brand img {width: 100px;}
-@media (max-width: 767.98px) {
-  nav.navbar {
-    position: fixed;
-    background-color: #111;
-  }
-  nav.navbar .navbar-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 5rem);
-  }
+/* Site Hero Start */
+.site-hero {
+  overflow: hidden;
+  height: 90vh;
 }
-/* Navbar End */
-
-
-
-
-/***********************************************************/
-/******************** Section Site Home ********************/
-/***********************************************************/
-section#section-home .site-home-hero {
-  background-image: url('../../assets/images/site-hero-bg.jpg');
+.site-hero-bg {
+  background-image: url('../../assets/images/site-hero.jpg');
   background-size: cover;
-  background-position: bottom;
-}
-section#section-home .site-home-hero .container{height: 100vh;}
-section#section-home .site-platform-expertise {
-  background-color: #f6f6f6;
-  margin-top: -1px;
-}
-section#section-home .site-platform-expertise img {
-  width: 100%;
-  filter: saturate(0%);
-}
-section#section-home .site-platform-expertise img:hover {filter: none;}
-section#section-home .site-home-banner {
-  background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("../.././assets/images/site-about-awc-bg.jpg");
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 100px 0 100px 0;
-}
-section#section-home .site-awc-works {padding: 100px 0 100px 0;}
-
-
-
-
-
-/********************************************************/
-/******************** Section About ********************/
-/********************************************************/
-section#section-about .site-about-awc-banner {
-  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  height: 100vh;
+  line-height: .1rem;
 }
-section#section-about .site-about-awc-banner h3 {margin-top: 30px;}
-section#section-about .site-about-awc-desc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Site Hero End */
 
-}
-section#section-about .site-about-awc-desc .about-awc-text {
-  padding: 150px 90px 150px 90px;
-}
-@media (max-width: 992px) {
-  section#section-about .site-about-awc-desc .about-awc-text {
-    padding: 50px 100px 50px 100px;
-  }
-}
-@media (max-width: 768px) {
-  section#section-about .site-about-awc-desc .about-awc-text {
-    padding: 20px 50px 20px 50px;
-  }
-}
-section#section-about .site-about-awc-desc .about-awc-image-1 {
-  background-image: url('../.././assets/images/about-awc-image-1.jpg');
-  background-size: cover;
-  background-position: center;
-}
-section#section-about .site-about-awc-desc .about-awc-image-2 {
-  background-image: url('../.././assets/images/about-awc-image-2.jpg');
-  background-size: cover;
-  background-position: center;
-}
-section#section-about .site-about-awc-desc .about-awc-image-3 {
-  background-image: url('../.././assets/images/about-awc-image-3.jpg');
-  background-size: cover;
-  background-position: top;
-}
-section#section-about .site-about-awc-desc img {width: 60%;}
-
-footer#site-footer {background-color: #111;}
+/* Site Clients Start */
+.site-clients img {filter: saturate(0%)}
+.site-clients img:hover {filter: none}
+/* Site Clients End */

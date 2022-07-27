@@ -1,4 +1,4 @@
-const urlPageTitle = "Appworks Co.";
+const urlPageTitle = "Excel Fire";
 
 // create document click that watches the nav links only
 document.addEventListener("click", (e) => {
@@ -24,11 +24,6 @@ const urlRoutes = {
 	},
 	"/about": {
 		page: "/pages/about.html",
-		title: urlPageTitle + " | About",
-		description: "This is the about page",
-	},
-	"/services": {
-		page: "/pages/services.html",
 		title: urlPageTitle + " | About",
 		description: "This is the about page",
 	},
